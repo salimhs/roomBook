@@ -4,11 +4,19 @@ The automation script is built using Python and Selenium, which allows it to int
 
 Key Features:
 Automated Booking Process: Automatically logs into the Carleton Library booking system and books a room based on the user's stored preferences.
+
 Floor Selection: Users can choose between the Silent Floors (3rd or 5th) and the Conversational Floors (2nd or 4th).
+
 Room Selection: A list of available rooms is shown based on the chosen floor. The user selects their preferred room.
+
 Time Slot Selection: The user provides the start time for the room booking, and the script automatically books it for a default duration (e.g., 2 hours).
+
 Saved Preferences: Once the script is run for the first time, it saves the user's credentials, floor, room, and time preferences, eliminating the need for input on future runs.
+
 Designed for Automation: The script is intended to be used with Windows Task Scheduler to run automatically at a specified time (e.g., midnight) to ensure timely bookings.
+
+
+
 Why This Exists:
 Booking a study room at Carleton Library is competitive, especially since rooms can only be reserved exactly seven days in advance. To secure a room, students often have to manually log in at midnight when new rooms become available, which can be inconvenient. This automation script was created to solve that problem by handling the booking process automatically, allowing students to focus on their studies instead of remembering to book a room late at night.
 
